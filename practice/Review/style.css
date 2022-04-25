@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    
+    background-color: rgb(225, 247, 248);
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.header {
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+
+.title {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    display: inline-block;
+    border-bottom: rgb(66, 184, 252) 4px solid;
+    bottom: -8px;
+    left: 44%;
+}
+
+.content-wrap {
+    box-shadow: rgba(0 0 0 / 10%) 0 4px 14px 2px;
+    padding: 16px 20px;
+    background-color: #fff;
+}
+
+.icon {
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: rgb(66 184 252) 7px -7px 1px -1px;
+}
+
+.icon::after {
+    content: ",,";
+    background-color:rgb(66, 184, 252);
+    color: #fff;
+    font-size: 30px;
+    line-height: 8px;
+    font-weight: 700;   
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    letter-spacing: -1px;
+    position: absolute;
+    left: 8px;
+    top: 14px;
+}   
+
+.name {
+    padding: 20px 0 5px 0;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.job {
+    letter-spacing: 0px;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(66, 184, 252);
+}
+
+
+.details {
+    color: #333;
+    font-size: 14px;
+}
+
+.controller {
+    display: flex;
+    justify-content: center;
+}
+
+.prev, .next {
+    font-size: 30px;
+    color: rgb(66, 184, 252);
+    padding: 5px 10px;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+
+.surprise {
+    margin: 0 auto;
+    color: rgb(66, 184, 252);
+    border:rgb(66 184 252) 1px solid;
+    width: 80px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    user-select: none;
+}
+
+.surprise:hover {
+    background-color:rgb(66, 184, 252);
+    color: #fff;
+}
